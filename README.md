@@ -1,2 +1,2 @@
-# OracleSQL
-Personal and Professional experience with Oracle SQL and its extensions
+# OracleSQL-Projects
+Sample Projects using Oracle SQL
