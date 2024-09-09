@@ -1,0 +1,14 @@
+-- Calculate total salary by department
+SELECT dept_name, SUM(salary) AS total_salary
+FROM employees e
+JOIN departments d ON e.dept_id = d.dept_id
+GROUP BY dept_name;
+
+-- Calculate average salary
+SELECT AVG(salary) AS avg_salary FROM employees;
+
+-- Count number of employees in each department
+SELECT dept_name, COUNT(emp_id) AS total_employees
+FROM employees e
+JOIN departments d ON e.dept_id = d.dept_id
+GROUP BY dept_name;
