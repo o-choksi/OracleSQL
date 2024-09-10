@@ -1,5 +1,3 @@
--- File: list_constraint_types.sql
-
 SET PAGESIZE 100;
 SET LINESIZE 150;
 
